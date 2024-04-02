@@ -1,0 +1,65 @@
+/* App.css */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  text-align: center;
+
+  background-position: center;
+  padding: 150px;
+}
+.container {
+  text-align: center;
+  background-image: url("https://img.freepik.com/free-photo/blur-shopping-mall_1203-8215.jpg?w=996&t=st=1711726436~exp=1711727036~hmac=0f6f961c57547c595c7c734ba8737f75c88de378da9b86d80c4d0e04c09b6b2c");
+  background-size: cover;
+  background-position: center;
+  padding: 150px;
+  height: 90vh;
+}
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 0 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+
+  display: inline-block;
+  outline: 0;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+
+  height: 33px;
+
+  color: #fff;
+  text-align: center;
+  line-height: normal;
+  background: linear-gradient(90deg, #5522fa 0, #0074e4 100%);
+  border-radius: 50px;
+  transition: color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+  :hover {
+    box-shadow: 0 0 0 0.4rem #5ceace;
+  }
+}
+
+.large-button {
+  font-size: 20px;
+}
